@@ -25,7 +25,7 @@ class SignUpScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
-                    height: height * 0.07,
+                    height: height * 0.078,
                   ),
                   customText(
                     "Create account",
@@ -89,7 +89,7 @@ class SignUpScreen extends StatelessWidget {
                       customText(
                         "Already member? ",
                         AppColors.darkTeal,
-                        height * 0.025,
+                        height * 0.023,
                         FontWeight.w400,
                         '',
                       ),
@@ -98,7 +98,7 @@ class SignUpScreen extends StatelessWidget {
                         child: customText(
                           "Log in",
                           AppColors.darkTeal,
-                          height * 0.025,
+                          height * 0.023,
                           FontWeight.w400,
                           '',
                         ),
@@ -111,7 +111,7 @@ class SignUpScreen extends StatelessWidget {
                       customText(
                         "Already member? ",
                         AppColors.white,
-                        height * 0.025,
+                        height * 0.023,
                         FontWeight.w400,
                         '',
                       ),
