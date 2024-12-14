@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sign_up_sign_in/screens/sign_in.dart';
 import 'package:sign_up_sign_in/screens/sign_up.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignUpScreen(),
+      home: SignInPage(),
     );
   }
 }
