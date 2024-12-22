@@ -94,7 +94,9 @@ class SignUpScreen extends StatelessWidget {
                         '',
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pop(context);
+                        },
                         child: customText(
                           "Log in",
                           AppColors.darkTeal,
