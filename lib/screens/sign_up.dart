@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sign_up_sign_in/config/colors.dart';
 import 'package:sign_up_sign_in/widgets/button_image_wg.dart';
 
