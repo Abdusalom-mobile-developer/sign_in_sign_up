@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sign_up_sign_in/config/colors.dart';
+import 'package:sign_up_sign_in/widgets/button_image_wg.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});
@@ -71,15 +72,10 @@ class SignUpScreen extends StatelessWidget {
                     Icons.apple,
                     height * 0.037,
                   ),
-                  customButton2(
-                    height,
-                    "Sign up using Google",
-                    AppColors.black,
-                    AppColors.lightSilver,
-                    AppColors.black,
-                    FontAwesomeIcons.google,
-                    height * 0.03,
+                  SizedBox(
+                    height: height * 0.02,
                   ),
+                  const ButtonImageWg(),
                   SizedBox(
                     height: height * 0.04,
                   ),
@@ -123,8 +119,9 @@ class SignUpScreen extends StatelessWidget {
                           height: height * 0.0025,
                           width: height * 0.065,
                           decoration: BoxDecoration(
-                              color: AppColors.amber,
-                              borderRadius: BorderRadius.circular(height * 5)),
+                            color: AppColors.amber,
+                            borderRadius: BorderRadius.circular(height * 5),
+                          ),
                         ),
                       )
                     ],
@@ -138,18 +135,7 @@ class SignUpScreen extends StatelessWidget {
     );
   }
 
-  Widget customText(String content, Color color, double fontSize,
-      FontWeight fontWeight, String fontFamily) {
-    return Text(
-      content,
-      style: TextStyle(
-        color: color,
-        fontSize: fontSize,
-        fontFamily: fontFamily,
-        fontWeight: fontWeight,
-      ),
-    );
-  }
+  
 
   Widget customButton(double height, String text, Color textColor,
       Color bgColor, Color iconColor) {
@@ -248,3 +234,15 @@ class SignUpScreen extends StatelessWidget {
     );
   }
 }
+Widget customText(String content, Color color, double fontSize,
+      FontWeight fontWeight, String fontFamily) {
+    return Text(
+      content,
+      style: TextStyle(
+        color: color,
+        fontSize: fontSize,
+        fontFamily: fontFamily,
+        fontWeight: fontWeight,
+      ),
+    );
+  }
