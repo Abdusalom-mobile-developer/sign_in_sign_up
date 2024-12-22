@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487786659047",
+    "project_id": "bladestagram",
+    "storage_bucket": "bladestagram.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487786659047:android:d2482d6aa8e97fb558f642",
+        "android_client_info": {
+          "package_name": "com.example.sign_up_sign_in"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPM_Z9vagVtuh5jnV4H_V0bK3jDKGkkl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
